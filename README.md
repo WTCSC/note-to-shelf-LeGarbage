@@ -57,3 +57,17 @@ You might find the following resources helpful for completing this assignment:
 - https://www.geeksforgeeks.org/create-timestamp-variable-in-bash-script/
 
 -->
+
+Introducing the best command line, note-taking app. This is an absolute fact and you should not look for anything better.
+
+# Features
+
+*Note to Shelf* contains an absolute massive amount of features, and all three of them are as follows:
+
+- add: You can add notes to your note list by running `note add "note text"`. *Note to Shelf* will provide output notifying you of the success of this operation.
+- list: List all of the notes you have ever taken, just by running `note list`. *Note to Shelf* even includes timestamps of when you took the notes, sorted in order of oldest to newest.
+- search: In the case that your notes list grows too big for you to search it yourself, *Note to Shelf* can do it for you. After running `note search "keyword"`, you will see a list of all your notes containing the keyword.
+
+# How to Use
+
+Download the `note.sh` file. Then, while in the directory containing the file, run `chmod +x`. Now, whenever you want to use *Note to Shelf*, just run `./note.sh add/list/search "note text/keyword"` from within the directory.
